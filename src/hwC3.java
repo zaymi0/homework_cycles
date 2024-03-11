@@ -7,10 +7,10 @@ public class hwC3 {
         int num1 = 1;
         int sum;
         System.out.print("Введите число: ");
-        int num3 = scanner.nextInt();
+        int userNumber = scanner.nextInt();
 
-        for (int i = 2; i < num3; i++){
-            sum = num + num1;
+        for (int i = 2; i < userNumber; i++) {
+            sum = num1 + num;
             num = num1;
             num1 = sum;
         }

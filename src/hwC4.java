@@ -7,8 +7,8 @@ public class hwC4 {
         System.out.print("Введите число: ");
         int num = scanner.nextInt();
 
-        for (int i = 1; i <= num; i++){
-            answer = answer * i;
+        for (int i = 1; i <= num; i++) {
+            answer *= i;
         }
 
         System.out.println(answer);
